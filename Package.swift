@@ -32,7 +32,7 @@ let package = Package(
         .binaryTarget(
             name: "BNBLightSourceDetector",
             url: "https://d2cm7wtcqqw29.cloudfront.net/1.16.3/BNBLightSourceDetector.zip",
-            checksum: "0473469434f078fe980f3b766fdb8bbda0e9f8dd04ffae44f3e6198624b6b21c"
+            checksum: "059ebb0f3c71266d47af286cc9f983d95d25790da1676a6f296ac921814139a9"
         ),
         .target(
             name: "BNBLightSourceDetector_BNBSdkCore",
