@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let bnbPackageVersion: Version = "1.17.7"
+let bnbPackageVersion: Version = "1.18.0"
 
 let package = Package(
     name: "BNBLightSourceDetector",
@@ -31,8 +31,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BNBLightSourceDetector",
-            url: "https://d2cm7wtcqqw29.cloudfront.net/1.17.7/BNBLightSourceDetector.zip",
-            checksum: "29d2afbaa061260e7530e747b37a7e96cc628f38eaf41d63830effc348ed1654"
+            url: "https://d2cm7wtcqqw29.cloudfront.net/1.18.0/BNBLightSourceDetector.zip",
+            checksum: "05a360092f88319f25d31e29a8c348ea24f129b264ae851ddd6812e2ec9c6b49"
         ),
         .target(
             name: "BNBLightSourceDetector_BNBSdkCore",
